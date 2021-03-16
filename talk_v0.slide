@@ -1,0 +1,51 @@
+awkward
+A brief intro to awk
+
+Aidan Coyle
+API Team
+acoyle@enova.com
+
+* Why awk?
+
+It's pretty universally available
+
+something else lame
+
+It was _designed_ for dirty hacks
+
+* Some data
+
+.code output.txt, /DATA OMIT/,/END DATA OMIT/
+
+* The simplest program
+
+.code output.txt, /SIMPLE OMIT/,/END SIMPLE OMIT/
+
+* Lets try filters
+
+.code output.txt, /FILTER OMIT/,/END FILTER OMIT/
+
+* Multiple filters works too
+
+.code output.txt, /MULTIFILTER OMIT/,/END MULTIFILTER OMIT/
+
+* Here's our data again
+
+.code output.txt, /DATA OMIT/,/END DATA OMIT/
+
+* Easy access to "columns"
+
+.code output.txt, /COLUMN OMIT/,/END COLUMN OMIT/
+
+* We have functions
+
+.code output.txt, /FUNCTIONS OMIT/,/END FUNCTIONS OMIT/
+
+* More magic with fields
+
+.code output.txt, /MAGIC OMIT/,/END MAGIC OMIT/
+
+* Putting it all together
+
+.code output.txt, /FINAL OMIT/,/END FINAL OMIT/
+

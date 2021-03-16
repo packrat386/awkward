@@ -1,0 +1,30 @@
+ fb763729 itcfg@cashnetusa.com 1615907007 Merge pull request #5487 from mkeisler/rm-pgs-boletos
+ 473d4fb2 itcfg@cashnetusa.com 1615906977 Merge pull request #5486 from mkeisler/legacy-staging
+ 5e42d8b9 itcfg@cashnetusa.com 1615906857 Merge pull request #5482 from mkeisler/old-prod-datatore-update
+ e9ccc0e2 mkeisler@enova.com 1615905507 /elp/staging/pgs: remove IAM group for access to enova-pgs-boletos-pdf-staging.us-east-2 bucket
+ dc6924c9 mkeisler@enova.com 1615904957 Update modules for legacy data-storage staging
+ 9bb3c771 mkeisler@enova.com 1615860970 Update modules in /prod/data-storage legacy path
+ 80b9ac0d itcfg@cashnetusa.com 1615904766 Merge pull request #5471 from mkeisler/hwc-prod
+ a65bfacf itcfg@cashnetusa.com 1615894881 Merge pull request #5477 from surge/sur_573_add_infra_vpc
+ 028fa46c itcfg@cashnetusa.com 1615843380 Merge pull request #5479 from craud/odyssey_worker_kafka_topic
+ 08780cf2 craud@enova.com 1615841838 fix odyssey-worker prod topic name
+ 966dbc86 itcfg@cashnetusa.com 1615838581 Merge pull request #5478 from melterman/owerly_staging_db_upgrade_12_4_after
+ 94734397 melterman@enova.com 1615837316 elp/staging/owlery; Applying TF after manual DB Upgrade 12.4
+ 8ff87d84 itcfg@cashnetusa.com 1615834335 Merge pull request #5419 from gcrittenden/add_simplic_gateway
+ 2e08f75c aamado@enova.com 1615833636 Add infra ips to ledger view
+ 5d3bc10b gcrittenden@enova.com 1615828935 provision simplic_gateway in wharf
+ 7bd11796 itcfg@cashnetusa.com 1615827755 Merge pull request #5474 from surge/sur_567_fix_lambda_name
+ cde73abc aamado@enova.com 1615819076 Fix lambda name
+ af7fc850 itcfg@cashnetusa.com 1615822285 Merge pull request #5473 from lph/nc6135-stop-actuary-prelp-prod
+ 82daf712 bsubramanian@enova.com 1615590614 Remove Prod NOI subscriptions to Actuary for PrelP and EBS lp
+ c409a688 itcfg@cashnetusa.com 1615587345 Merge pull request #5470 from melterman/owerly_staging_db_upgrade_12_4_pre
+ 44b38b3a itcfg@cashnetusa.com 1615587228 Merge pull request #5472 from sshao/control_panel_stg_wharf
+ 9e9cbc68 sshao@users.noreply.github.com 1615584738 Increase control-panel-sidekiq:staging mem limit
+ c6437d6c mkeisler@enova.com 1615581841 /smb/production/hwc-iso-commissions: migrate to apigw unified module, update lambba modules
+ 18b0f838 itcfg@cashnetusa.com 1615581188 Merge pull request #5450 from mkeisler/hwc-iso-stg
+ cae78e16 melterman@enova.com 1615578257 elp/staging/owlery: Aurora PG Upgrade to 12.4(before manual upgrade)
+ 9ece60ac itcfg@cashnetusa.com 1615575979 Merge pull request #5469 from craud/kafka_topic_env
+ d1061b0b craud@enova.com 1615575133 ./elp/production/odyssey_worker add kafka topic env variable
+ 9475ec1d itcfg@cashnetusa.com 1615574560 Merge pull request #5466 from craud/kafka_topic_env
+ 90f476e7 itcfg@cashnetusa.com 1615574036 Merge pull request #5468 from melterman/payment_router_production_db_upgrade_12_4_after
+ d015e248 melterman@enova.com 1615573669 elp/production/payment_router: Aurora PG Upgrade to 12.4(after manual upgrade)
