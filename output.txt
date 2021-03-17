@@ -18,6 +18,7 @@
 
 # SIMPLE OMIT
  $ cat data.txt | awk '{ print }'
+
  fb763729 itcfg@cashnetusa.com 1615907007 Merge pull request #5487 from mkeisler/rm-pgs-boletos
  473d4fb2 itcfg@cashnetusa.com 1615906977 Merge pull request #5486 from mkeisler/legacy-staging
  5e42d8b9 itcfg@cashnetusa.com 1615906857 Merge pull request #5482 from mkeisler/old-prod-datatore-update
@@ -40,6 +41,7 @@
 
 # FILTER OMIT
  $ cat data.txt | awk ' /Merge/ { print }'
+
  fb763729 itcfg@cashnetusa.com 1615907007 Merge pull request #5487 from mkeisler/rm-pgs-boletos
  473d4fb2 itcfg@cashnetusa.com 1615906977 Merge pull request #5486 from mkeisler/legacy-staging
  5e42d8b9 itcfg@cashnetusa.com 1615906857 Merge pull request #5482 from mkeisler/old-prod-datatore-update
@@ -57,6 +59,7 @@
 /Merge/ { print "we got a merge" }  
 /mkeisler@enova.com/ { print "mark needs to log off" } 
 END { print "thats all folks!" }'
+
 begin report
 we got a merge
 we got a merge
@@ -73,6 +76,7 @@ thats all folks!
 
 # COLUMN OMIT
  $ cat data.txt | awk '{ print $2 }'
+
 itcfg@cashnetusa.com
 itcfg@cashnetusa.com
 itcfg@cashnetusa.com
@@ -93,6 +97,7 @@ gcrittenden@enova.com
 
 # FUNCTIONS OMIT
  $ cat data.txt | awk '{ gsub(/@.*$/, "", $2); print $2 }'
+
 itcfg
 itcfg
 itcfg
@@ -113,6 +118,7 @@ gcrittenden
 
 # MAGIC OMIT
  $ cat data.txt | awk '/Merge/ { print $NF }'
+
 mkeisler/rm-pgs-boletos
 mkeisler/legacy-staging
 mkeisler/old-prod-datatore-update
@@ -132,7 +138,9 @@ melterman/payment_router_production_db_upgrade_12_4_after
 # END MAGIC OMIT
 
 # FINAL OMIT
- $ cat data.txt | awk ' !/Merge/ { gsub(/@.*$/, "", $2); prs[$2]++ } END { for(author in prs) print author ": " prs[author] }'
+ $ cat data.txt | awk ' !/Merge/ { gsub(/@.*$/, "", $2); prs[$2]++ }
+END { for(author in prs) print author ": " prs[author] }'
+
 mkeisler: 4
 bsubramanian: 1
 sshao: 1
